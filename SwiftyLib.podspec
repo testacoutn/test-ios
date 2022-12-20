@@ -82,7 +82,7 @@ This CocoaPods library helps you perform calculation.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ideyalab/SwiftyLib.git", :tag => "{spec.version}" }
+  spec.source       = { :git => "https://github.com/ideyalab/SwiftyLib.git", :tag => "{0.0.2}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
