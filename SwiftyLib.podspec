@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftyLib"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "https://github.com/jeantimex/SwiftyLib"
+  spec.homepage     = "https://github.com/ideyalab/SwiftyLib.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +39,8 @@ This CocoaPods library helps you perform calculation.
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
+  #spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ This CocoaPods library helps you perform calculation.
   #  profile URL.
   #
 
-  spec.author             = { "jeantimex" => "jean.timex@gmail.com" }
+  spec.author             = { "chandrakant" => "citagi63@gmail.com" }
   # Or just: spec.author    = "jeantimex"
   # spec.authors            = { "jeantimex" => "jean.timex@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/jeantimex"
@@ -82,7 +82,7 @@ This CocoaPods library helps you perform calculation.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jeantimex/SwiftyLib.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ideyalab/SwiftyLib.git", :tag => "{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
