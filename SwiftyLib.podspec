@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftyLib"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,7 @@ This CocoaPods library helps you perform calculation.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ideyalab/SwiftyLib.git", :tag => "{0.0.2}" }
+  spec.source       = { :git => "https://github.com/ideyalab/SwiftyLib.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
